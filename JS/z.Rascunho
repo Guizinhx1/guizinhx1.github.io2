@@ -1,0 +1,55 @@
+1 - tela de autenticação - ambiente restrito
+2 - formulário com no minimo 5 componentes HTML (contato, newsletter)
+3 - Com Css
+4 - java script
+5 - layout responsivo
+
+Profisionais responsaveis :
+
+    TI e Programação
+    Programação de sites, e-commerce e apps mobile
+    Design e Multimedia
+    Logotipos, sites, vídeos, ilustrações, etc.
+    Tradução e conteúdos
+    Editores, redatores, tradutores para web e artigos
+    Marketing e Vendas
+    Gerenciamento e publicidade em redes, posicionamento e e-mails
+    Suporte Administrativo
+    Jurídico
+    Finanças e Administração
+    Engenharia e Manufatura
+
+IDEIA DE PROJETO : 
+
+    Plataformas de colaboração criativa: Criar plataformas que permitam que desenvolvedores de jogos independentes de todo o mundo colaborem em projetos, compartilhem recursos e experiências para promover a inovação e diversidade na indústria.
+
+    1 - PLATAFORMA AONDE DONOS DE EMPRESA DE DESENVOLVIMENTO DE JOGOS VÃO COLOCAR SEU PROJETO NESTE SITE/APP E OS    PROGRAMADORES E DESENVOLVEDORES DO MUNDO TODO PODEM SE CANDIDATAR A ESSA VAGA DE EMPREGO.
+   
+    2 - APÓS O CADASTRO OU LOGIN DO USUARIA, ABRIA UMA PAGINA PARECIDA COM UM INSTAGRAM OU O X.
+  
+    3 - O USUARIA ESCOLHERIA QUAL PROJETO ELE DESEJA DESENVOLVER.
+   
+    4 - NESTA PLATAFORMA O USUARIO TERIA UM PORTFÓLIO PROPRIO>
+
+    Repositório teste github
+
+----- Versionamento -----
+- git init
+- git add . (para adicionar todos os arquivos)
+- git commit -m "mensagem de alteração"
+
+
+----- Comandos úteis -----
+- git checkout (nome do arquivo) para desfazer algum commit
+- git status - para saber o que precisa ser adicionado ou commitado
+- git log - exibe um log com todos os commits feitos até o momento
+- git dif (usar antes de adicionar/commitar) - mostrar quais os arquivos foram alterados 
+- get show ("d93ae96a79d01c4a634068a74707b0af8fb594e4" - exemplo) - para mostrar o que foi alterado/commitado
+
+---- Adicionar em um repositório no github ----- 
+- git remote add origin "link do respositório"
+- git branch -M main / master
+- git push -u origin main / master
+- git clone "link do respositório"
+
+

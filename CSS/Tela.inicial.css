@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    color: black;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-image: url("./../IMGS/fundo2.jpg");
+
+}
+header {
+    background-color: #131F2B;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+#h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 15px;
+}
+
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#div3{
+    background-color: #131F2B;
+    position: absolute;
+    border: 1px solid black;
+    margin-top: 14px;
+    margin-right: 100px;
+    padding: 20px;
+    border-radius: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    
+   
+}
+#p1{
+    text-align:left;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #030303;
+}
+
+.fixarRodape {
+    bottom: 0;
+    position: fixed;
+    width: 90%;
+    text-align: center;
+}
+
+#div2{
+    background-color: #131F2B;
+    position: absolute;
+    margin-top: 500px;
+    padding: 20px;
+    margin-right: 100px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+#p2{
+    text-align:left;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.hidden {
+    display: none;
+}
+  
+  #caixaMensagens {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+    background-color:black;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 9999;
+    color: white;
+}
+  
+.conteudo {
+    text-align: center;
+}
+  
+.fechar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+  
+#btnAbrir {
+    position: absolute;
+    top: 159px;
+    right: 9px;
+    margin-right: 2rem;
+    cursor: pointer;
+    background-color: #131F2B;
+    border: 1px solid white
+}
+#div0{
+    background-color: #131F2B;
+    color: white;
+    border-radius: 20px
+}
+a{
+    color: yellow;
+}
+.container{
+    max-width:300px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    margin-left: 1450px;
+    margin-bottom: 20px;
+}
+.container2{
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    margin-left: 1400px;
+    margin-bottom: 20px;
+}
+.container3{
+    max-width:250px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+}
+footer{
+    margin-bottom: 5px;
+    color: yellow;
+}
+#btnAbrir2 {
+    position: absolute;
+    top: 120px;
+    right: 9px;
+    margin-right: 2rem;
+    cursor: pointer;
+    background-color: #131F2B;
+    border: 1px solid white
+}
+#div1{
+    background-color: #131F2B;
+    position: absolute;
+    margin-top: 63rem;
+    padding: 20px;
+    margin-right: 100px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+#p3{
+    text-align:left;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.container4{
+    max-width:310px;
+    max-height:240px;
+    margin-left: 1100px;
+    margin-top: -20rem;
+    
+}
+.container-bo6{
+    max-width:400px;
+    max-height:200px;
+    margin-bottom: -15px;
+}
+@media screen and (max-width: 500px){
+    #div0,
+    #div2{
+       display: flex;
+       flex-direction: column;
+       max-width: 220px;
+       
+       
+    }
+    #div3{
+        display: flex;
+        flex-direction:column-reverse;
+        max-width: 220px;
+       
+      
+    }
+    #div1{
+        display: flex;
+        flex-direction: column;
+        max-width: 220px;
+        margin-top: 93rem;
+    }
+    #p3{
+        display: none;
+    }
+    
+    #p1,
+    #p2,
+    #p3{
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    #btnAbrir2 {
+        
+        top: 120px
+    }
+    #btnAbrir{
+        top: 159px
+    }
+    
+
+}

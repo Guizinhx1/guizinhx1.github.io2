@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    background-color: #131F2B;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+body{
+    /* margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px; */
+    background-image: url("./../IMGS/fundo.jpg");
+}
+#div1{
+    background-color: #131F2B;
+    position: absolute;
+    border: 1px solid black;
+    margin-top: 14px;
+    margin-right: 90px;
+    padding: 20px;
+    border-radius: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+   
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+.portfolio-item {
+    margin-bottom: 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 30px;
+    background-color: #131F2B;
+    color: white;
+    border-radius: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+footer{
+    margin-bottom: 5px;
+    color: yellow;
+}
+.fixarRodape {
+    bottom: 0;
+    position: fixed;
+    width: 90%;
+    text-align: center;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STORM</title>
+    <script src="./JS/script.js" defer ></script>
+    <link rel="stylesheet" type="text/css" href="./CSS/Desing.css">
+
+</head>
+<body>
+    <div class="div1">
+    <h1>Bem-vindo á Storm</h1><br>
+    
+    <p id="p1">Seja bem-vindo à nossa plataforma de colaboração criativa,<br> onde grandes ideias se encontram para dar vida a projetos extraordinários! <br> Juntos, vamos inspirar, inovar e criar um futuro mais brilhante para a indústria dos jogos.
+    </p>
+
+    <p id="p2">Convidamos todos os profissionais apaixonados pela arte do desenvolvimento de jogos a se juntarem a nós em uma jornada emocionante e colaborativa! Nosso site é o ponto de encontro para criativos, programadores, artistas, designers, escritores e entusiastas de todas as áreas. Juntos, podemos transformar ideias em realidade e criar experiências de jogo incríveis. Venha fazer parte da nossa comunidade e deixe sua marca no mundo dos games!</p>
+    </p>
+    </div>
+    <form>
+    <div class="div2">
+        <h3>Cadastro</h3><br>
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email"><br><br>
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha">
+        <br><br>
+        <label for="nacionalidade">País</label>
+        <select name="nacionalidade" id="nacionalidade">
+            <option value="brasil">Brasil</option>
+            <option value="estados unidos">Estados Unidos</option>
+            <option value="alemanha">Alemanha</option>
+            <option value="espenha">Espanha</option>
+            <option value="japao">Japão</option>
+            <br><br>
+        </select><br><br>
+        <label for="date">Data de Nascimento: </label>
+        <input for="date" type="date" value="2024-04-17"/>
+        <br><br>
+        <button type="submit" onclick="cadastrarlogin()">Cadastrar</button>
+    </div>
+    </form>
+    <div class="div3">
+        <h3>Login</h3><br>
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email2"><br><br>
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha2"><br><br>
+        <button type="button" onclick="fazerLogin()">Login</button>
+    </div>
+    <footer class="fixarRodape">
+        <p>&copy; 2024 Plataforma de Projetos. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

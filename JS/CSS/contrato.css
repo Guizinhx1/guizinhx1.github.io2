@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    background-color: #131F2B;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+body{
+    /* margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px; */
+    background-image: url("./../IMGS/fundo.jpg");
+}
+#div1{
+    background-color: #131F2B;
+    position: absolute;
+    border: 1px solid black;
+    margin-top: 14px;
+    margin-right: 90px;
+    padding: 20px;
+    border-radius: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+   }
+#div2{
+    background-color: #131F2B;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+    position: absolute
+}
+#div3{
+    background-color: #131F2B;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 30px;
+    margin-left: 50rem;
+    border-radius: 10px;
+    color: white;
+    padding: 15px;
+    position: absolute
+}
+label{
+    font-family: 'Times New Roman', Times, serif;
+}
+#bt1{
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+#h2-1{
+    font-family: 'Times New Roman', Times, serif
+    
+}
+footer{
+    margin-bottom: 5px;
+    color: black;
+}
+.fixarRodape {
+    bottom: 0;
+    position: fixed;
+    width: 90%;
+    text-align: center;
+}
+@media screen and (max-width: 500px){
+    #div1,
+    #div2{
+        display: flex;
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+    #div3{
+        margin-left: 20px;
+        margin-top: 400px;
+        margin-right: 20px;
+    }
+}

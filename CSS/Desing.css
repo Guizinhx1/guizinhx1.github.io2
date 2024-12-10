@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #131F2B;
+    color: rgb(255, 255, 255);
+    
+}
+h1{
+    color: #131F2B;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; ;
+}
+#p1{
+    color: black;
+    text-align:justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+#p2{
+    color: black;
+    margin-top: 20px;
+    text-align:justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.div1{
+    background-color: white;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px;
+    border-radius: 10px;
+}
+.div2{
+    color: black;
+    background-color: white;
+    position: absolute;
+    top: 59%;
+    left: 67%;
+    transform: translate(-50%,-50%);
+    padding: 30px;
+    border-radius: 10px;
+}
+.div3{
+    color: black;
+    background-color: white;
+    position: absolute;
+    top: 55%;
+    left: 32%;
+    transform: translate(-50%,-50%);
+    padding: 30px;
+    border-radius: 10px;
+}
+.hr1{
+    size: 100px;
+    width: 10px;
+}
+button {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #030303;
+}
+footer{
+    margin-bottom: 5px;
+    color: yellow;
+}
+.fixarRodape {
+    bottom: 0;
+    position: fixed;
+    width: 90%;
+    text-align: center;
+}
+@media screen and (max-width: 500px){
+    #div1{
+        margin-left: 1px;
+        
+}
+}
